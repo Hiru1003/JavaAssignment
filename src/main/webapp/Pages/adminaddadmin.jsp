@@ -61,7 +61,7 @@
             <label htmlFor="description" class="label">Description :</label>
             <div className={style.input_group}>
             <input type="text" name="description" id="description"
-            className=style="input_text" style="descriptionInput" />
+            style="input_text" style="descriptionInput" />
             </div>
         </div>
 
