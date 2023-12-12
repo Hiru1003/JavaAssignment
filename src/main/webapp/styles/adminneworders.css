@@ -1,3 +1,53 @@
+.Layoutcontainer {
+  @apply hidden lg:block h-screen;
+  display: grid;
+  grid-template-columns: 35% 180%;
+  background-color: #fcfffa;
+  position: relative;
+  padding-left: 3%;
+  padding-right: 45%;
+  overflow: hidden;
+  width: 100%;
+}
+.Layoutcontainer1 {
+  @apply flex flex-col items-start;
+  position: relative;
+  width: 87%;
+  height: 150%;
+  overflow: hidden;
+  padding-bottom: 6%;
+  padding-top: 20%;
+  margin-left: 12%;
+  margin-right: 2.5%;
+  box-shadow: 5px 0 5px -5px rgba(0, 0, 0.5, 0.5);
+}
+.Layoutcontainer2 {
+  @apply flex flex-col items-start;
+  width: 90%;
+  overflow: hidden;
+  background-color: #fcfffa;
+  height: auto;
+}
+.Layoutcolumn {
+  @apply rounded-md;
+  height: 85%;
+  color: black;
+  margin-top: 2%;
+  color: #191d1c;
+  font-size: 100%;
+  overflow: hidden;
+  width: 160%;
+  max-width: 190px;
+  min-width: 120px;
+  margin: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
 .pbody {
   padding-top: 1%;
   padding-left: 5%;

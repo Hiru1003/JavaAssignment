@@ -1,3 +1,87 @@
+.Layoutmaincontainer{
+    @apply hidden lg:block h-screen;
+    display: grid;
+    grid-template-columns: 35% 180% ;
+    background-color:#FCFFFA;
+    position: relative;
+    padding-right: 45%;
+    overflow:hidden;
+    width: 100%;
+  }
+  .Layoutcontainer1{
+    @apply flex flex-col items-start ;
+    position: relative;
+    width: 108%;
+    height: 150%;
+    overflow: hidden;
+    display: flex;
+    padding-bottom: 6%;
+    padding-top: 20%;
+    padding-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 0 5px -5px rgba(0, 0, 0.5, 0.5);
+  }
+  .Layoutcontainer2 {
+    @apply flex flex-col items-start;
+    width: 90%;
+    overflow:hidden;
+    background-color: #FCFFFA;
+  }
+
+  .Layoutheading {
+    color: #0a0a0a;
+    font-size: 150%;
+    padding-bottom: 2%;
+    padding-left: 12%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+
+  .Layoutheading2 {
+    color: #535555;
+    font-size: 100%;
+    padding-bottom: 5%;
+    padding-left: 28%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+
+  .Layoutbody {
+    color: #535555;
+    font-size: 80%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 5%;
+  }
+
+  .Layouticons {
+    display: flex;
+    padding-left: 24%;
+    text-align: center;
+    align-content: center;
+  }
+
+  .Layoutbackarrow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15%;
+    padding-left: 5%;
+  }
+
+  .Layoutarrowicon {
+    width: 15px;
+    height: 15px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(135deg);
+    margin-right: 5px;
+  }
 
 .pbody{
     padding-top: 2%;

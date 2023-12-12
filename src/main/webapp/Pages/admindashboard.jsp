@@ -3,45 +3,45 @@
 <link rel="stylesheet" type="text/css" href="styles/admindashboard.css">
 </head>
 <body>
-<jsp:include page="/Pages/AdminLayout.jsp" />
+<jsp:include page="/Layout/AdminLayout.jsp" />
 <Layout>
-      <div className={style.headingcontainer}>
-        <div className={style.pbody}>
+      <div class=headingcontainer>
+        <div class=pbody>
         Dashboard
 
-        <div className={style.icons}>
-        <a href="/adminprofile" className="text-text-100 justify-center mr-4">
+        <div class=icons>
+        <a href="/adminprofile" class="text-text-100 justify-center mr-4">
         <MdOutlineFaceUnlock  size={30}/>
         </a>
-        <a href="/adminnotification" className="text-text-100 ">
+        <a href="/adminnotification" class="text-text-100 ">
         <TbBellFilled size={30}/>
         </a>
         </div>
         </div>
         </div>
 
-        <div className={style.maincontainer}>
-        <div className={style.cardscontainer}>
-        <div className={style.cards}>
-            <div className={style.body}>
+        <div class=maincontainer>
+        <div class=cardscontainer>
+        <div class=cards>
+            <div class=body>
             Total Orders   <br/><br/>
             404
-                <div className={style.displayicon}>
-                <a href="/cart" className="text-text-100 justify-center mr-6">
-                <PiShoppingCartFill  size={100} style={{ color: '#7BCE8D'}}/>
+                <div class=displayicon>
+                <a href="/cart" class="text-text-100 justify-center mr-6">
+                <PiShoppingCartFill  size={100} style="color: #7BCE8D;/>
                 </a>
                 </div>
 
             </div>
         </div>
 
-            <div className={style.cards}>
-            <div className={style.body}>
+            <div class=cards>
+            <div class=body>
             Total Customers<br/><br/>
             404
-                <div className={style.displayicon}>
-                <a href="/cart" className="text-text-100 justify-center mr-6">
-                <IoIosPeople  size={110} style={{ color: '#7BCE8D'}}/>
+                <div class=displayicon>
+                <a href="/cart" class="text-text-100 justify-center mr-6">
+                <IoIosPeople  size={110} style="color: #7BCE8D;/>
                 </a>
                 </div>
 
@@ -49,27 +49,27 @@
             </div>
         </div>
 
-        <div className={style.cardscontainer}>
-            <div className={style.cards}>
-            <div className={style.body}>
+        <div class=cardscontainer>
+            <div class=cards>
+            <div class=body>
             Total Branches<br/><br/>
             404
-                <div className={style.displayicon}>
-                <a href="/cart" className="text-text-100 justify-center mr-6">
-                <HiHome  size={100} style={{ color: '#7BCE8D'}}/>
+                <div class=displayicon>
+                <a href="/cart" class="text-text-100 justify-center mr-6">
+                <HiHome  size={100}  style="color: #7BCE8D;/>
                 </a>
                 </div>
 
             </div>
 
             </div>
-            <div className={style.cards}>
-            <div className={style.body}>
+            <div class=cards>
+            <div class=body>
             Total Turnovers<br/><br/>
             404
-                <div className={style.displayicon}>
-                <a href="/cart" className="text-text-100 justify-center mr-6">
-                <TbTruckReturn  size={100} style={{ color: '#7BCE8D'}}/>
+                <div class=displayicon>
+                <a href="/cart" class="text-text-100 justify-center mr-6">
+                <TbTruckReturn  size={100} style="color: #7BCE8D;/>
                 </a>
                 </div>
 

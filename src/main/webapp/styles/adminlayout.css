@@ -1,4 +1,4 @@
-.maincontainer {
+.Layoutcontainer {
   @apply hidden lg:block h-screen;
   display: grid;
   grid-template-columns: 35% 180%;
@@ -9,7 +9,7 @@
   overflow: hidden;
   width: 100%;
 }
-.container1 {
+.Layoutcontainer1 {
   @apply flex flex-col items-start;
   position: relative;
   width: 87%;
@@ -21,14 +21,14 @@
   margin-right: 2.5%;
   box-shadow: 5px 0 5px -5px rgba(0, 0, 0.5, 0.5);
 }
-.container2 {
+.Layoutcontainer2 {
   @apply flex flex-col items-start;
   width: 90%;
   overflow: hidden;
   background-color: #fcfffa;
   height: auto;
 }
-.column {
+.Layoutcolumn {
   @apply rounded-md;
   height: 85%;
   color: black;
@@ -43,44 +43,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.columnspan {
-  margin-left: 15%;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-.headingContainer {
-  @apply items-center space-x-12;
-  display: flex;
-  position: relative;
-  width: 100%;
-  padding-left: 4%;
-  padding-bottom: 5%;
-  overflow: hidden;
-  justify-content: left;
-}
-
-.headingcolumn {
-  color: black;
-  display: flex;
-  align-items: center;
-  color: #191d1c;
-  overflow: hidden;
-  gap: 1%;
-}
-
-.headingspan {
-  color: #7bce8d;
-  font-size: 110%;
-  display: flex;
-}
-.column:hover {
-  @apply rounded-md;
-  background-color: #e3f9d8;
-}
-
-.column.active {
-  color: #7bce8d;
 }

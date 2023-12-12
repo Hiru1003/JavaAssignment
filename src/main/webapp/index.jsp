@@ -2,6 +2,6 @@
 <head>
 </head>
 <body>
-<jsp:include page="/Home/homesectionone.jsp" />
+<jsp:include page="/Pages/adminnotification.jsp" />
 </body>
 </html>

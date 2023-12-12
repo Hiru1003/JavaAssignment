@@ -6,8 +6,6 @@
 <jsp:include page="/Pages/AdminProfileLayout.jsp" />
 
     <Layout>
-
-
         <div className={style.maincontainer}>
         <div className={style.form}>
         {/*Edit Profile */}
