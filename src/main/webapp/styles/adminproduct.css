@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 .Layoutcontainer {
   @apply hidden lg:block h-screen;
   display: grid;

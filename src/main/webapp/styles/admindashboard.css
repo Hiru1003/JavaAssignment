@@ -1,16 +1,24 @@
+.Layoutmaincontainer {
+    display:flex;
+    background-color: #FCFFFA;
+}
+
 .Layoutcontainer {
-  @apply hidden lg:block h-screen;
   display: grid;
   grid-template-columns: 35% 180%;
   background-color: #fcfffa;
-  position: relative;
+  position: absolute;
   padding-left: 3%;
   padding-right: 45%;
   overflow: hidden;
   width: 100%;
+  height: 500%;
+}
+.logo{
+ width:40%
+ height:20%
 }
 .Layoutcontainer1 {
-  @apply flex flex-col items-start;
   position: relative;
   width: 87%;
   height: 150%;
@@ -22,14 +30,14 @@
   box-shadow: 5px 0 5px -5px rgba(0, 0, 0.5, 0.5);
 }
 .Layoutcontainer2 {
-  @apply flex flex-col items-start;
+flex-direction: column;
+  align-items: flex-start;
   width: 90%;
   overflow: hidden;
   background-color: #fcfffa;
   height: auto;
 }
 .Layoutcolumn {
-  @apply rounded-md;
   height: 85%;
   color: black;
   margin-top: 2%;
@@ -79,7 +87,6 @@
     z-index: 0;
   }
   .cards{
-    @apply rounded-md;
     color: black;
     align-items: center;
     color: #191D1C;
