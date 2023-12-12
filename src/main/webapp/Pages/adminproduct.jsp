@@ -5,33 +5,33 @@
 <body>
 <jsp:include page="/Pages/AdminLayout.jsp" />
 <Layout>
-      <div className={style.headingcontainer}>
-        <div className={style.pbody}>
-          <div className={style.newordersTopic}>Products</div>
-          <div className={style.icons}>
+      <div class="headingcontainer">
+        <div class="pbody">
+          <div class="newordersTopic">Products</div>
+          <div class="icons">
             <a
               href="/adminprofile"
-              className="text-text-100 justify-center mr-4"
+              class="text-text-100 justify-center mr-4"
             >
               <MdOutlineFaceUnlock size={30} />
             </a>
-            <a href="/adminnotification" className="text-text-100 ">
+            <a href="/adminnotification" class="text-text-100 ">
               <TbBellFilled size={30} />
             </a>
           </div>
         </div>
       </div>
 
-      <div className={style.maincontainer}>
-        <div className={style.container2}>
-          <div className={style.form}>
+      <div class="maincontainer">
+        <div class="container2">
+          <div class="form">
             {/* one */}
-            <div className={style.formRow}>
-              <img src="/assests/bread.jpeg" className="w-64 h-52 rounded-md" />
-              <div className={style.input_group}>
-                <div className={style.textspan}>B0023</div>
-                <div className={style.textheading}>Fresh Bread</div>
-                <div className={style.text}>
+            <div class="formRow">
+              <img src="/assests/bread.jpeg" class="w-64 h-52 rounded-md" />
+              <div class="input_group">
+                <div class="textspan">B0023</div>
+                <div class="textheading">Fresh Bread</div>
+                <div class="text">
                   Lorem ipsum dolor sit amet consectetur. Vel lacus ut donec et.
                   In nisl justo commodo nulla eget. Ac egestas mattis et morbi.
                   In velit lacus eu pretium. Lorem ipsum dolor sit amet
@@ -40,11 +40,11 @@
                   eget.
                 </div>
                 {/* edit and clear button */}
-                <div className={style.formRowButton}>
-                  <button type="submit" className={style.button2}>
+                <div class="formRowButton">
+                  <button type="submit" class="button2">
                     Edit
                   </button>
-                  <button type="submit" className={style.button}>
+                  <button type="submit" class="button">
                     Clear
                   </button>
                 </div>
@@ -52,15 +52,15 @@
             </div>
 
             {/* two */}
-            <div className={style.formRow}>
+            <div class="formRow">
               <img
                 src="/assests/banana.jpeg"
                 className="w-64 h-52 rounded-md"
               />
-              <div className={style.input_group}>
-                <div className={style.textspan}>B0023</div>
-                <div className={style.textheading}>Fresh Bread</div>
-                <div className={style.text}>
+              <div class="input_group">
+                <div class="textspan">B0023</div>
+                <div class="textheading">Fresh Bread</div>
+                <div class="text">
                   Lorem ipsum dolor sit amet consectetur. Vel lacus ut donec et.
                   In nisl justo commodo nulla eget. Ac egestas mattis et morbi.
                   In velit lacus eu pretium. Lorem ipsum dolor sit amet
@@ -69,13 +69,13 @@
                   eget.
                 </div>
                 {/* edit and clear button */}
-                <div className={style.formRowButton}>
-                  <button type="submit" className={style.button2}>
-                    Edit
-                  </button>
-                  <button type="submit" className={style.button}>
-                    Clear
-                  </button>
+                <div class="formRowButton">
+                                  <button type="submit" class="button2">
+                                    Edit
+                                  </button>
+                                  <button type="submit" class="button">
+                                    Clear
+                                  </button>
                 </div>
               </div>
             </div>

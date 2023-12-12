@@ -6,39 +6,39 @@
 <jsp:include page="/Pages/AdminProfileLayout.jsp" />
 
     <Layout>
-        <div className={style.maincontainer}>
-        <div className={style.form}>
+        <div class="maincontainer">
+        <div class="form">
         {/*Edit Profile */}
-        <div className={style.formRow}>
+        <div class="formRow">
             <a href="/admineditprofile">
-            <label htmlFor="code" className={style.label}>Edit Profile</label>
+            <label htmlFor="code" class="label">Edit Profile</label>
             </a>
-            <a className={style.forwardbutton} href="/admineditprofile">
-                <span className={style.arrowicon}></span>
-                <span className={style.forwardtext}></span>
+            <a class="forwardbutton" href="/admineditprofile">
+                <span class="arrowicon"></span>
+                <span class="forwardtext"></span>
             </a>
         </div>
 
 
         {/* Change Password */}
-        <div className={style.formRow}>
+        <div class="formRow">
         <a href="/adminchangeps">
-            <label htmlFor="name" className={style.label}>Change Password</label>
+            <label htmlFor="name" class="label">Change Password</label>
             </a>
-            <a className={style.forwardbutton} href="/adminchangeps">
-                <span className={style.arrowicon}></span>
-                <span className={style.forwardtext}></span>
+            <a class="forwardbutton"  href="/adminchangeps">
+                <span class="arrowicon"></span>
+                <span class="forwardtext"></span>
             </a>
         </div>
 
         {/* Add a New Admin */}
-        <div className={style.formRow}>
+        <div class="formRow">
         <a href="/adminaddadmin">
-            <label htmlFor="name" className={style.label}>Add a New Admin</label>
+            <label htmlFor="name" class="label">Add a New Admin</label>
             </a>
-            <a className={style.forwardbutton} href="/adminaddadmin">
-                <span className={style.arrowicon}></span>
-                <span className={style.forwardtext}></span>
+            <a class="forwardbutton" href="/adminaddadmin">
+                <span class="arrowicon"></span>
+                <span class="forwardtext"></span>
             </a>
         </div>
         </div>
