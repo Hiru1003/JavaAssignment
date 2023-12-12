@@ -6,7 +6,7 @@
 <jsp:include page="/Pages/AdminLayout.jsp" />
     <Layout>
           <div class="headingcontainer">
-            <div className={style.pbody}>
+            <div class="pbody">
               <div className={style.newordersTopic}>New Orders</div>
               <div className={style.icons}>
                 <a
