@@ -1,0 +1,62 @@
+
+.pbody{
+    padding-top: 2%;
+    padding-left: 15%;
+    font-size: 160%;
+    padding-bottom: 6%;
+    display: flex;
+}
+.icons{
+    display: flex;
+    margin-left: 150%;
+
+}
+.maincontainer{
+    background-color: #E3F9D8;
+    height: 100vh;
+    width: 270%;
+}
+.cardscontainer{
+    position: relative;
+    padding-left: 5%;
+    padding-right: 12%;
+    padding-bottom: 11%;
+    padding-top: 3%;
+    height: 40%;
+    width: 160%;
+    border-radius: 5%;
+    display: grid;
+    grid-template-columns: 15% 15%;
+    overflow:hidden;
+    gap: 9%;
+    z-index: 0;
+  }
+  .cards{
+    @apply rounded-md;
+    color: black;
+    align-items: center;
+    color: #191D1C;
+    font-size: 90%;
+    position: relative;
+    height: 340%;
+    width: 140%;
+    overflow: hidden;
+    background-color: #E3F9D8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+.body{
+    padding-top: 8%;
+    padding-left: 15%;
+    font-size: 160%;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    text-align: left;
+    font-weight: 800;
+    padding-right: 2%;
+}
+.displayicon{
+    display: flex;
+    text-align: end;
+    margin-left: auto;
+}
