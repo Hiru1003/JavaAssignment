@@ -55,6 +55,7 @@
             Edit
             </button>
             <button type="submit" class="button">
+
             Clear
             </button>
         </div>
